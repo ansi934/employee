@@ -66,7 +66,7 @@ function Login({ setRole, setUser }) {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://ec2-13-201-25-118.ap-south-1.compute.amazonaws.com";
+  const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://ec2-13-235-31-84.ap-south-1.compute.amazonaws.com";
 
   const handleLogin = async () => {
     setError("");
